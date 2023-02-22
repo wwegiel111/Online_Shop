@@ -18,6 +18,7 @@ if (isset($_POST['add_to_cart'])) {
     $product_id = $_POST['product_id'];
     array_push($_SESSION['cart'], $products[$product_id]);
 }
+
 ?>
 
 <!DOCTYPE html>
