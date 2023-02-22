@@ -25,13 +25,13 @@ if (isset($_POST['add_to_cart'])) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Sklep internetowy z częściami komputerowymi</title>
+    <title>Sklep Pamięć, która zapomina</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Sklep internetowy z częściami komputerowymi</h1>
+        <h1>Pamięć, która zapomina</h1>
         <a href="cart.php" class="button">Koszyk (<?php echo count($_SESSION['cart']); ?>)</a>
     </header>
     <main>

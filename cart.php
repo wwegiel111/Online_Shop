@@ -13,7 +13,7 @@ foreach ($cart as $product) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Koszyk - Sklep internetowy z częściami komputerowymi</title>
+    <title>Koszyk</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -41,5 +41,7 @@ foreach ($cart as $product) {
         </tr>
     </table>
 </main>
+<form action="reset.php" method="post">
+            <input type="submit" name="reset_cart" value="Resetuj koszyk" class="button">
             </body>
             </html> 
